@@ -95,7 +95,7 @@ You pay only for what you use.
 
 Traditional data centers
 
-![][1]
+![](images/f33305ba8e7d5f27f193195031b29d5bd48d4cbd.png)
 
 ## Cloud Computing
 
@@ -121,7 +121,7 @@ Management of permissions becomes easy with resource groups.
 
 -   Microsoft data centers are located around the world.
 
-![][2]
+![](images/ae1349794ea06155121fddf963478a296c26b00c.png)
 
 -   You would ideally create resource in a region that is closest to your users.
 
@@ -177,7 +177,7 @@ Azure Marketplace contains lot of pre-configured services that you can choose fr
 
 Without availability sets, due to power failures or other maintenance issues, the VM can become unavailable.
 
-![][3]
+![](images/4ce6a125a4b772be812c203c2cf6afe2533ee775.png)
 
 With availability sets, you can deploy VMs to different fault domains, so that if one VM fails, the other VM is still available for use.
 
@@ -189,7 +189,7 @@ With availability sets, you can achieve an Service Level Agreement (SLA) of 99.9
 
 With availability zones, services are replicated across different data centers in a region. So, if one data center fails, your application is still available and accessible from other data center.
 
-![][4]
+![](images/8553211f890922323ccc0b7855653d19d14c89e0.png)
 
 # Networking
 
@@ -197,9 +197,9 @@ With availability zones, services are replicated across different data centers i
 
 Azure Virtual Networking is home of VMs.
 
-![][5]
+![](images/44164e6ca812e81daf2e745beb2489429006fbd0.png)
 
-![][6]
+![](images/6a73e2eb463d945f17738f0f53e689933c2c2125.png)
 
 Virtual Networking consists range of IP addresses. The VMs you launch in the virtual networking will get IP addresses within that range.
 
@@ -237,7 +237,7 @@ In order to add a network security rule, you need to define
 
 Site to site VPN allows users on your corporate network to a virtual network in Azure.
 
-![][7]
+![](images/2c5e0c09ed49a989915a91d043985152f696db62.png)
 
 To create site-to-site VPN, you need
 
@@ -325,7 +325,7 @@ Lab:
 
 ### File Shares
 
-![][8]Earlier, file shares are created in physical servers.
+![](images/63dbf4a59a847679d2a575c7e3a8906fe8b6d3e6.png)Earlier, file shares are created in physical servers.
 
 Equivalent of that service is File Share in Azure.
 
@@ -343,7 +343,7 @@ Can be accessed via the Server Message Block.
 
 -   There is no specific schema
 
-![][9]
+![](images/a891af890badf2e73aa1c7e2383f2fb0ab6d34ef.png)
 
 -   Use table storage if you don\'t need to do complex joins, foreign keys and stored procedures.
 
@@ -376,7 +376,7 @@ Can be accessed via the Server Message Block.
 
 -   Blended measure of CPU, Memory and read-write rates
 
-![][10]
+![](images/4b4319e7555ff9a77b00bee027cc5bb672e93822.png)
 
 **VCore**-based
 
@@ -400,7 +400,7 @@ Can be accessed via the Server Message Block.
 
 ## Azure Synapse Analytics
 
-![][11]
+![](images/b519ea28bb5f5539283beca43b9e7b6a434e8aa7.png)
 
 Data Warehouses are used to do analysis on large amounts of data which is coming in constantly from wide variety of source systems.
 
@@ -436,7 +436,7 @@ Cosmos DB supports global distribution.
 
 ### Lab:
 
-![][12]
+![](images/cb4a55952618d07784eab5d32bbe98556ec7f795.png)
 
 -   Create Azure Cosmos DB account
 
@@ -458,7 +458,7 @@ If your application has lot of tables, and use complex queries and joins, then c
 
 High availability is achieved by replication of your data or services.
 
-![][13]
+![](images/bce8e76f348b00547d2b07093a59ecacef6700d6.png)
 
 E.g. in case of Storage account, you can improve the high availability using replication options such as Local redundant storage, Geo redundant storage.
 
@@ -466,29 +466,29 @@ E.g. in case of Storage account, you can improve the high availability using rep
 
 If the load on the application increases, then cloud supports scalable options to handle the increased workload.
 
-![][14]
+![](images/0921ccf565a898570e1b5a3985feefb9ce11fe31.png)
 
 ## Disaster recovery
 
 Cloud supports automatic disaster recovery by using replication techniques.
 
-![][15]
+![](images/dfbdf4361585fd5e56a0dbcdbb1da96f321b4dbf.png)
 
 ## Elasticity
 
 You can resize resources to scale up to the demand.
 
-![][16]
+![](images/9aefd1cfd0f8d0b7758f6149cee8a341199be8d5.png)
 
 ## Fault Tolerance
 
 Fault tolerance helps your application recover from faults.
 
-![][17]
+![](images/97f18f064440ac48d15d5d5d492c59b39a25f9e3.png)
 
 ## Cloud Service Model
 
-![][18]
+![](images/287d3cf27ea87fef8f33673e6ee6367af47e7229.png)
 
 **Infrastructure as a Service (IaaS) (e.g. Farming, cooking, eating)**
 
@@ -519,7 +519,7 @@ Fault tolerance helps your application recover from faults.
 
 ## Cloud Models
 
-![][19]
+![](images/36e1dc7a801cf9abc833ee54a29ff2a9b08f54b8.png)
 
 **Private Cloud**
 
@@ -571,7 +571,7 @@ While creating Web App, you should also create App Service Plan. Different app s
 
 <https://azure.microsoft.com/en-us/pricing/details/app-service/windows/>
 
-![][20]
+![](images/533f6230d791672a82779eca765759d4872c76f7.png)
 
 App service plans determine the disk space, high availability, instances, deployment slots, auto-scaling etc.
 
@@ -589,7 +589,7 @@ App service plans determine the disk space, high availability, instances, deploy
 
 VM scale sets automatic scaling of the VM instances based on the workload (e.g CPU, memory, IO)
 
-![][21]
+![](images/91ec914152d307dd62a01c5670f26edb52d0510f.png)
 
 ### Lab
 
@@ -623,7 +623,7 @@ VM scale sets automatic scaling of the VM instances based on the workload (e.g C
 
 Load balancer distributes the traffic to your Virtual machines.
 
-![][22]
+![](images/9b39038aba0775298140559877ac36a0217fccd7.png)
 
 Load balancer requires configuring
 
@@ -685,7 +685,7 @@ ARM templates contain
 
 -   Route traffic to different endpoints
 
-![][23]
+![](images/599ec677b375022c32c719a8f279698f813dcde5.png)
 
 -   Routes
 
@@ -729,7 +729,7 @@ Another command line tool to interact with Azure services.
 
 You can run commands (PowerShell or Azure CLI) directly from the shell in Azure Portal.
 
-![][24]
+![](images/eb85b1791d4725eed28fd2775b62c2905f797824.png)
 
 ## Azure Functions
 
@@ -771,13 +771,13 @@ Logic Apps provide serverless GUI workflows that consume a range Connectors and 
 
 -   Receive an automated email
 
-![][25]
+![](images/49d60c7a1bcd8e5e394bf46ea9df2c706237f1ab.png)
 
 # Security, privacy, compliance and trust
 
 ## Azure Active Directory (Azure AD)
 
-![][26]
+![](images/d7c398c472161c8fd696d5e62b549cd5a9155412.png)
 
 Azure AD contains users and groups of an organizations.
 
@@ -847,7 +847,7 @@ There are several built-in roles available in Azure. The commonly used ones are
 
 ## Azure Firewall
 
-![][27]
+![](images/70555b5f69e9fa2d1d95ae2b685c90287c62eae2.png)
 
 -   This is a managed, cloud based network security servie that can be used to protect your network resources.
 
@@ -899,7 +899,7 @@ Page that displays important Azure product updates, roadmap and announcements. Y
 
 <https://azure.microsoft.com/en-us/updates/>
 
-![][28]
+![](images/ed27452d43f207a19d51ae6bda6c00339b247e52.png)
 
 There is no guarantee of SLA on the preview services.
 
@@ -907,7 +907,7 @@ There is no guarantee of SLA on the preview services.
 
 You can create support request from Azure portal. The response time depends on your support plan.
 
-![][29]
+![](images/9ca595abc424fa35d11e8af95b4797876b7a2c0b.png)
 
 -   **Basic plan** is available for all Azure accounts. Technical support is not available with Basic plan.
 
@@ -947,17 +947,17 @@ Microsoft provides SLA guarantees for services based on the plans and tiers and 
 
 Microsoft will provide service credits if SLAs are not guaranteed.
 
-![][30]
+![](images/7e5ed3abd59cd86306644fd89e27b5f512555195.png)
 
 ## Total cost of ownership (TCO) calculator
 
 Estimate the cost savings you can realize by migrating your workloads to Azure.
 
-![][31]
+![](images/637f1be11356c10b2677ba3e4aaea5d30459c245.png)
 
 ## Creating Budgets
 
-![][32]
+![](images/58c5560b20f2e28c71b0b7f60301922263fa7662.png)
 
 You can create budgets to set the limits and get automated alerts when budget exceeds certain threshold.
 
@@ -966,38 +966,3 @@ You can create budgets to set the limits and get automated alerts when budget ex
 -   Tags can be used to logically organize resources
 
 -   You can generate billing reports based on tags.
-
--   
-
-  [1]: images/f33305ba8e7d5f27f193195031b29d5bd48d4cbd.png {width="5.0in" height="2.5in"}
-  [2]: images/ae1349794ea06155121fddf963478a296c26b00c.png {width="5.770833333333333in" height="2.8613713910761156in"}
-  [3]: images/4ce6a125a4b772be812c203c2cf6afe2533ee775.png {width="3.3109219160104986in" height="2.1727930883639544in"}
-  [4]: images/8553211f890922323ccc0b7855653d19d14c89e0.png {width="4.4690660542432195in" height="2.6628182414698163in"}
-  [5]: images/44164e6ca812e81daf2e745beb2489429006fbd0.png {width="3.15625in" height="2.0844400699912513in"}
-  [6]: images/6a73e2eb463d945f17738f0f53e689933c2c2125.png {width="4.34375in" height="2.4071620734908135in"}
-  [7]: images/2c5e0c09ed49a989915a91d043985152f696db62.png {width="4.820627734033246in" height="2.2395833333333335in"}
-  [8]: images/63dbf4a59a847679d2a575c7e3a8906fe8b6d3e6.png {width="1.2291666666666667in" height="1.2291666666666667in"}
-  [9]: images/a891af890badf2e73aa1c7e2383f2fb0ab6d34ef.png {width="5.0in" height="1.2604166666666667in"}
-  [10]: images/4b4319e7555ff9a77b00bee027cc5bb672e93822.png {width="5.0in" height="3.5in"}
-  [11]: images/b519ea28bb5f5539283beca43b9e7b6a434e8aa7.png {width="5.0in" height="3.78125in"}
-  [12]: images/cb4a55952618d07784eab5d32bbe98556ec7f795.png {width="3.3229166666666665in" height="2.464496937882765in"}
-  [13]: images/bce8e76f348b00547d2b07093a59ecacef6700d6.png {width="3.03125in" height="1.9829429133858267in"}
-  [14]: images/0921ccf565a898570e1b5a3985feefb9ce11fe31.png {width="2.8645833333333335in" height="1.826172353455818in"}
-  [15]: images/dfbdf4361585fd5e56a0dbcdbb1da96f321b4dbf.png {width="2.8754965004374453in" height="1.5096358267716536in"}
-  [16]: images/9aefd1cfd0f8d0b7758f6149cee8a341199be8d5.png {width="5.0in" height="3.1041666666666665in"}
-  [17]: images/97f18f064440ac48d15d5d5d492c59b39a25f9e3.png {width="3.75in" height="2.1796872265966756in"}
-  [18]: images/287d3cf27ea87fef8f33673e6ee6367af47e7229.png {width="3.8854166666666665in" height="2.5336154855643045in"}
-  [19]: images/36e1dc7a801cf9abc833ee54a29ff2a9b08f54b8.png {width="3.2093657042869643in" height="2.4270833333333335in"}
-  [20]: images/533f6230d791672a82779eca765759d4872c76f7.png {width="5.50209208223972in" height="2.7395833333333335in"}
-  [21]: images/91ec914152d307dd62a01c5670f26edb52d0510f.png {width="3.2083333333333335in" height="2.232465004374453in"}
-  [22]: images/9b39038aba0775298140559877ac36a0217fccd7.png {width="3.40625in" height="1.8734372265966754in"}
-  [23]: images/599ec677b375022c32c719a8f279698f813dcde5.png {width="3.097014435695538in" height="2.59375in"}
-  [24]: images/eb85b1791d4725eed28fd2775b62c2905f797824.png {width="5.0in" height="4.875in"}
-  [25]: images/49d60c7a1bcd8e5e394bf46ea9df2c706237f1ab.png {width="5.0in" height="1.75in"}
-  [26]: images/d7c398c472161c8fd696d5e62b549cd5a9155412.png {width="5.0in" height="2.2604166666666665in"}
-  [27]: images/70555b5f69e9fa2d1d95ae2b685c90287c62eae2.png {width="5.0in" height="2.8125in"}
-  [28]: images/ed27452d43f207a19d51ae6bda6c00339b247e52.png {width="5.0in" height="2.96875in"}
-  [29]: images/9ca595abc424fa35d11e8af95b4797876b7a2c0b.png {width="6.145833333333333in" height="2.4455293088363956in"}
-  [30]: images/7e5ed3abd59cd86306644fd89e27b5f512555195.png {width="5.0in" height="1.4166666666666667in"}
-  [31]: images/637f1be11356c10b2677ba3e4aaea5d30459c245.png {width="5.0in" height="3.3229166666666665in"}
-  [32]: images/58c5560b20f2e28c71b0b7f60301922263fa7662.png {width="5.0in" height="2.2083333333333335in"}
